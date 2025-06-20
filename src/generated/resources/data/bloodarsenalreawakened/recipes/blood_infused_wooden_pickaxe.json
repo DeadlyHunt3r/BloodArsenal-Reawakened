@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " T ",
+    " T "
+  ],
+  "key": {
+    "S": {
+      "item": "bloodarsenalreawakened:blood_infused_planks"
+    },
+    "T": {
+      "item": "bloodarsenalreawakened:blood_infused_stick"
+    }
+  },
+  "result": {
+    "item": "bloodarsenalreawakened:blood_infused_wooden_pickaxe"
+  }
+}

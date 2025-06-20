@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "bloodarsenalreawakened:inert_blood_diamond"
+  },
+  "output": {
+    "item": "bloodarsenalreawakened:infused_blood_diamond"
+  },
+  "upgradeLevel": 3,
+  "altarSyphon": 100000,
+  "consumptionRate": 5,
+  "drainRate": 1
+}

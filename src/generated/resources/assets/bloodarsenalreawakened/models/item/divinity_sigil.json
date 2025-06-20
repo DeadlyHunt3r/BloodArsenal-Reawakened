@@ -1,0 +1,16 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bloodarsenalreawakened:item/divinity_sigil"
+  },
+  "overrides": [
+    {
+      "predicate": { "bloodmagic:active": 1.0 },
+      "model": "bloodarsenalreawakened:item/variants/divinity_sigil_activated"
+    },
+    {
+      "predicate": { "bloodmagic:active": 0.0 },
+      "model": "bloodarsenalreawakened:item/variants/divinity_sigil_deactivated"
+    }
+  ]
+}

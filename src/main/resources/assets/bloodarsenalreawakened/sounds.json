@@ -1,0 +1,7 @@
+{
+  "crit": {
+    "category": "entity",
+    "subtitle": "bloodarsenalreawakened .subtitle.crit",
+    "sounds": [ "bloodarsenalreawakened :crit" ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:array",
+  "texture": "bloodmagic:textures/models/alchemyarrays/wiparray.png",
+  "baseinput": {
+    "item": "bloodarsenalreawakened:bound_blood_diamond"
+  },
+  "addedinput": {
+    "item": "bloodarsenalreawakened:ethereal_dragon_heart"
+  },
+  "output": {
+    "item": "bloodarsenalreawakened:bleeding_dragons_eye"
+  }
+}

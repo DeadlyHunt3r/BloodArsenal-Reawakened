@@ -1,0 +1,38 @@
+# General use .gitignore for Minecraft modding.
+
+# Directories
+/.gradle/
+/build/
+/eclipse
+/run/
+/out/
+/asm/
+/bin/
+/config/
+crash-reports/
+/.idea/
+/.metadata/
+/libs/
+/saves/
+/resourcepacks/
+/logs/
+/mods/
+/screenshots/
+/classes/
+
+# File Extensions
+*.psd
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+
+# Specific files
+Thumbs.db
+usernamecache.json
+options.txt
+BloodArsenalReawakened_Client.launch
+BloodArsenalReawakened_Server.launch
+
+usercache.json

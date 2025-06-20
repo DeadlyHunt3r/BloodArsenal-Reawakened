@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S"
+  ],
+  "key": {
+    "S": {
+      "item": "bloodarsenalreawakened:blood_infused_iron_block"
+    }
+  },
+  "result": {
+    "item": "bloodarsenalreawakened:blood_infused_iron_ingot",
+    "count": 9
+  }
+}

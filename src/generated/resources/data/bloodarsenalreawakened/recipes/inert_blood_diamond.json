@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    "CTC",
+    "ADA"
+  ],
+  "key": {
+    "S": {
+      "item": "bloodarsenalreawakened:blood_infused_glowstone"
+    },
+    "T": {
+      "item": "bloodarsenalreawakened:blood_diamond"
+    },
+    "A": {
+      "item": "bloodarsenalreawakened:blood_infused_iron_block"
+    },
+    "B": {
+      "item": "bloodmagic:demonslate"
+    },
+    "C": {
+      "item": "bloodmagic:activationcrystalweak"
+    },
+    "D": {
+      "item": "bloodmagic:masterbloodorb"
+    }
+  },
+  "result": {
+    "item": "bloodarsenalreawakened:inert_blood_diamond"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:array",
+  "texture": "bloodmagic:textures/models/alchemyarrays/wiparray.png",
+  "baseinput": {
+    "item": "bloodarsenalreawakened:reagent_ender"
+  },
+  "addedinput": {
+    "item": "bloodmagic:reinforcedslate"
+  },
+  "output": {
+    "item": "bloodarsenalreawakened:ender_sigil"
+  }
+}

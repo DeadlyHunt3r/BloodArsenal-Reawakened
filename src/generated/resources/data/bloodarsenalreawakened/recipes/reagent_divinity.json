@@ -1,0 +1,14 @@
+{
+  "type": "bloodmagic:alchemytable",
+  "input": [
+    {
+      "item": "bloodarsenalreawakened:reagent_divinity_unawakened"
+    }
+  ],
+  "output": {
+    "item": "bloodarsenalreawakened:reagent_divinity"
+  },
+  "syphon": 800000,
+  "ticks": 200,
+  "upgradeLevel": 4
+}

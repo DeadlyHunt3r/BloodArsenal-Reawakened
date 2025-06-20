@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side_alt",
+  "textures": {
+    "pane": "bloodarsenalreawakened:block/blood_stained_glass",
+    "edge": "bloodarsenalreawakened:block/blood_stained_glass_pane"
+  }
+}

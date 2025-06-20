@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " S ",
+    "   "
+  ],
+  "key": {
+    "S": {
+      "item": "bloodarsenalreawakened:blood_infused_log"
+    }
+  },
+  "result": {
+    "item": "bloodarsenalreawakened:blood_infused_planks",
+    "count": 4
+  }
+}

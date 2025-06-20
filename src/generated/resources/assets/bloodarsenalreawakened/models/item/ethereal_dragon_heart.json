@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bloodarsenalreawakened:item/ethereal_dragon_heart"
+  }
+}

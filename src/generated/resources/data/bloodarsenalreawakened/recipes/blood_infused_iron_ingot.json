@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "bloodarsenalreawakened:inert_blood_infused_iron_ingot"
+  },
+  "output": {
+    "item": "bloodarsenalreawakened:blood_infused_iron_ingot"
+  },
+  "upgradeLevel": 0,
+  "altarSyphon": 5000,
+  "consumptionRate": 5,
+  "drainRate": 1
+}

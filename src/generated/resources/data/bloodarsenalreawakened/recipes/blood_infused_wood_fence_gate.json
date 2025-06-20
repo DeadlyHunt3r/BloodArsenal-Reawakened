@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"   ",
+    "TST",
+    "TST"
+  ],
+  "key": {
+    "S": {
+      "item": "bloodarsenalreawakened:blood_infused_planks"
+    },
+    "T": {
+      "item": "bloodarsenalreawakened:blood_infused_stick"
+    }
+  },
+  "result": {
+    "item": "bloodarsenalreawakened:blood_infused_wood_fence_gate",
+    "count": 1
+  }
+}

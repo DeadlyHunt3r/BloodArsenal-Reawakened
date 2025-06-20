@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "bloodmagic:demonslate"
+  },
+  "output": {
+    "item": "bloodarsenalreawakened:frame_of_ascension"
+  },
+  "upgradeLevel": 4,
+  "altarSyphon": 220000,
+  "consumptionRate": 40,
+  "drainRate": 40
+}

@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "minecraft:glass"
+  },
+  "output": {
+    "item": "bloodarsenalreawakened:blood_stained_glass"
+  },
+  "upgradeLevel": 0,
+  "altarSyphon": 100,
+  "consumptionRate": 5,
+  "drainRate": 1
+}

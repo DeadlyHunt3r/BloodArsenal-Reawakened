@@ -1,0 +1,20 @@
+{
+  "type": "bloodmagic:soulforge",
+  "input0": {
+    "item": "minecraft:diamond"
+  },
+  "input1": {
+    "item": "bloodarsenalreawakened:blood_infused_glowstone"
+  },
+  "input2": {
+    "item": "bloodmagic:life_essence_bucket"
+  },
+  "input3": {
+    "item": "bloodarsenalreawakened:dragon_claw"
+  },
+  "output": {
+    "item": "bloodarsenalreawakened:blood_diamond"
+  },
+  "minimumDrain": 1024.0,
+  "drain": 512.0
+}

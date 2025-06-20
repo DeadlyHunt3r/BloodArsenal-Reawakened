@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bloodarsenalreawakened:item/totem_of_blood_shielding"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "bloodmagic:alchemytable",
+  "input": [
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "minecraft:end_crystal"
+    },
+    {
+      "item": "bloodarsenalreawakened:bleeding_dragons_eye"
+    },
+    {
+      "item": "minecraft:ender_chest"
+    }
+  ],
+  "output": {
+    "item": "bloodarsenalreawakened:reagent_ender"
+  },
+  "syphon": 15000,
+  "ticks": 200,
+  "upgradeLevel": 2
+}

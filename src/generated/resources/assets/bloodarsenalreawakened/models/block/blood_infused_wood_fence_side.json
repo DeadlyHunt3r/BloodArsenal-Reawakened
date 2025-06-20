@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "bloodarsenalreawakened:block/blood_infused_planks"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "bloodmagic:alchemytable",
+  "input": [
+    {
+      "item": "bloodmagic:airsigil"
+    },
+    {
+      "item": "bloodmagic:gravel_netherite_scrap"
+    },
+    {
+      "item": "bloodarsenalreawakened:dragon_claw"
+    },
+    {
+	  "item": "bloodarsenalreawakened:dragon_claw"
+    },
+    {
+	  "item": "bloodarsenalreawakened:dragon_claw"
+    },
+    {
+      "item": "bloodarsenalreawakened:bound_blood_diamond"
+    }
+  ],
+  "output": {
+    "item": "bloodarsenalreawakened:reagent_flight"
+  },
+  "syphon": 80000,
+  "ticks": 200,
+  "upgradeLevel": 3
+}

@@ -1,0 +1,23 @@
+{
+  "type": "bloodmagic:alchemytable",
+  "input": [
+    {
+      "item": "bloodmagic:reagentbinding"
+    },
+    {
+      "item": "bloodarsenalreawakened:blood_infused_glowstone"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    }
+  ],
+  "output": {
+    "item": "bloodarsenalreawakened:reagent_lightning"
+  },
+  "syphon": 20000,
+  "ticks": 200,
+  "upgradeLevel": 2
+}

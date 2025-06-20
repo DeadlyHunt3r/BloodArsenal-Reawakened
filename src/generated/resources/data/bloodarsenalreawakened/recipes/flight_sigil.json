@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:array",
+  "texture": "bloodmagic:textures/models/alchemyarrays/wiparray.png",
+  "baseinput": {
+    "item": "bloodarsenalreawakened:reagent_flight"
+  },
+  "addedinput": {
+    "item": "bloodmagic:demonslate"
+  },
+  "output": {
+    "item": "bloodarsenalreawakened:flight_sigil"
+  }
+}

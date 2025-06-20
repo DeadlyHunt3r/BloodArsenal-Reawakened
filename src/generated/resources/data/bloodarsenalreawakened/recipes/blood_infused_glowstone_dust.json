@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "minecraft:glowstone_dust"
+  },
+  "output": {
+    "item": "bloodarsenalreawakened:blood_infused_glowstone_dust"
+  },
+  "upgradeLevel": 0,
+  "altarSyphon": 5000,
+  "consumptionRate": 5,
+  "drainRate": 1
+}

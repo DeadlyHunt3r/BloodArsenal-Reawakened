@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  S",
+    " X ",
+    "T  "
+  ],
+  "key": {
+    "S": {
+      "item": "bloodarsenalreawakened:glass_shard"
+    },
+    "T": {
+      "item": "bloodarsenalreawakened:blood_infused_stick"
+    },
+    "X": {
+      "item": "bloodarsenalreawakened:blood_diamond"
+    }
+  },
+  "result": {
+    "item": "bloodarsenalreawakened:glass_sacrificial_dagger"
+  }
+}

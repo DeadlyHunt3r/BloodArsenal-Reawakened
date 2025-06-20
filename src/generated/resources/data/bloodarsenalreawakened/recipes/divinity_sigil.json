@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:array",
+  "texture": "bloodmagic:textures/models/alchemyarrays/wiparray.png",
+  "baseinput": {
+    "item": "bloodarsenalreawakened:reagent_divinity"
+  },
+  "addedinput": {
+    "item": "bloodarsenalreawakened:frame_of_ascension"
+  },
+  "output": {
+    "item": "bloodarsenalreawakened:divinity_sigil"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "bloodarsenalreawakened:blood_infused_glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "bloodarsenalreawakened:blood_infused_glowstone"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "STS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "bloodarsenalreawakened:blood_infused_glowstone_dust"
+    },
+    "T": {
+      "item": "bloodarsenalreawakened:blood_stained_glass"
+    }
+  },
+  "result": {
+    "item": "bloodarsenalreawakened:sparkling_blood_stained_glass",
+    "count": 8
+  }
+}

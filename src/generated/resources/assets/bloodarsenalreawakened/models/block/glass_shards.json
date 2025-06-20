@@ -1,0 +1,18 @@
+{
+  "parent": "block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "bloodarsenalreawakened:block/glass_shards",
+    "all": "bloodarsenalreawakened:block/glass_shards"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 1, 16],
+      "faces": {
+        "up":    { "texture": "#all" },
+        "down":  { "texture": "#all" }
+      }
+    }
+  ]
+}

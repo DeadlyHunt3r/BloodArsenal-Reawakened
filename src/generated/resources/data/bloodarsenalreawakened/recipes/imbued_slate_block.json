@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "item": "bloodmagic:infusedslate"
+    }
+  },
+  "result": {
+    "item": "bloodarsenalreawakened:imbued_slate"
+  }
+}

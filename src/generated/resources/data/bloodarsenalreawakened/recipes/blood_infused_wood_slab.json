@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "SSS",
+    "   "
+  ],
+  "key": {
+    "S": {
+      "item": "bloodarsenalreawakened:blood_infused_planks"
+    }
+  },
+  "result": {
+    "item": "bloodarsenalreawakened:blood_infused_wood_slab",
+    "count": 6
+  }
+}

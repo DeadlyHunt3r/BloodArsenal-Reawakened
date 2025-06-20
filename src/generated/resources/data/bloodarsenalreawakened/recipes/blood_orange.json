@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "minecraft:orange_dye"
+  },
+  "output": {
+    "item": "bloodarsenalreawakened:blood_orange"
+  },
+  "upgradeLevel": 1,
+  "altarSyphon": 500,
+  "consumptionRate": 5,
+  "drainRate": 0
+}

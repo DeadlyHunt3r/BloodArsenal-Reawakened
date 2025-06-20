@@ -1,0 +1,26 @@
+{
+  "type": "bloodmagic:alchemytable",
+  "input": [
+    {
+	  "item": "minecraft:nether_star"
+    },
+    {
+	  "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "bloodarsenalreawakened:bleeding_dragons_eye"
+    },
+    {
+      "item": "bloodarsenalreawakened:essence_of_decay"
+    },
+	{
+      "item": "bloodarsenalreawakened:essence_of_decay"
+	}
+  ],
+  "output": {
+    "item": "bloodarsenalreawakened:reagent_decay"
+  },
+  "syphon": 100000,
+  "ticks": 200,
+  "upgradeLevel": 3
+}

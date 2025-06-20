@@ -1,0 +1,20 @@
+{
+  "type": "bloodmagic:soulforge",
+  "input0": {
+    "item": "minecraft:iron_ingot"
+  },
+  "input1": {
+    "item": "bloodarsenalreawakened:blood_infused_glowstone_dust"
+  },
+  "input2": {
+    "item": "bloodmagic:life_essence_bucket"
+  },
+  "input3": {
+    "item": "bloodmagic:reagentbinding"
+  },
+  "output": {
+    "item": "bloodarsenalreawakened:inert_blood_infused_iron_ingot"
+  },
+  "minimumDrain": 200.0,
+  "drain": 100.0
+}

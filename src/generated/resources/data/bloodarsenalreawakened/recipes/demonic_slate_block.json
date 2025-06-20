@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "bloodmagic:demonslate"
+    }
+  },
+  "result": {
+    "item": "bloodarsenalreawakened:demonic_slate"
+  }
+}

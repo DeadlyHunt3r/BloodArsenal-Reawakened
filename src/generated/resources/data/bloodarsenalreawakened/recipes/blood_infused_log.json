@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "tag": "minecraft:logs"
+  },
+  "output": {
+    "item": "bloodarsenalreawakened:blood_infused_log"
+  },
+  "upgradeLevel": 1,
+  "altarSyphon": 2000,
+  "consumptionRate": 5,
+  "drainRate": 1
+}
