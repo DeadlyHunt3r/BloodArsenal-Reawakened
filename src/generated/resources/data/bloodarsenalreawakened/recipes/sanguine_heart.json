@@ -1,0 +1,29 @@
+{
+    "type": "bloodmagic:alchemytable",
+    "input": [
+        {
+            "item": "bloodarsenalreawakened:heart_1"
+        },
+        {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        {
+            "item": "bloodarsenalreawakened:essence_of_decay"
+        },
+        {
+            "item": "bloodarsenalreawakened:inert_blood_diamond"
+        },
+        {
+            "item": "bloodarsenalreawakened:inert_blood_diamond"
+        },
+        {
+            "item": "minecraft:wither_skeleton_skull"
+        }
+    ],
+    "output": {
+        "item": "bloodarsenalreawakened:heart_2"
+    },
+    "syphon": 75000,
+    "ticks": 200,
+    "upgradeLevel": 2
+}

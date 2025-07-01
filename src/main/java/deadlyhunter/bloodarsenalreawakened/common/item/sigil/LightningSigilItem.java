@@ -62,7 +62,7 @@ public class LightningSigilItem extends SigilBaseItem
             }
             else if (!isUnusable(stack))
             {
-                RayTraceResult rayTrace = PlayerHelper.rayTrace(world, player, RayTraceContext.FluidMode.NONE);
+                RayTraceResult rayTrace = player.pick(20.0D, 0.0F, false); 
 
                 if (rayTrace != null)
                 {

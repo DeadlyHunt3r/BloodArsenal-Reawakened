@@ -1,7 +1,7 @@
 modLoader="javafml" #mandatory
 loaderVersion="[35,)" #mandatory
 license="All rights reserved"
-issueTrackerURL="https://github.com/DeadlyHunt3r/Blood-Arsenal-Reawakened/issues" #optional
+issueTrackerURL="https://github.com/DeadlyHunt3r/BloodArsenal-Reawakened/issues" #optional
 
 [[mods]] #mandatory
 modId="bloodarsenalreawakened" #mandatory

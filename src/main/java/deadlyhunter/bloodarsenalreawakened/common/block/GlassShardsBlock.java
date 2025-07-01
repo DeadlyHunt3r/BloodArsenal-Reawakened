@@ -28,21 +28,18 @@ public class GlassShardsBlock extends Block {
         );
     }
 
-    @Override
-    public void onEntityCollision(BlockState state, World world, BlockPos pos, net.minecraft.entity.Entity entity) {
-        if (!world.isRemote && entity instanceof LivingEntity) {
-            LivingEntity livingEntity = (LivingEntity) entity;
+	@Override
+	public void onEntityCollision(BlockState state, World world, BlockPos pos, net.minecraft.entity.Entity entity) {
+		if (!world.isRemote && entity instanceof LivingEntity) {
+			LivingEntity livingEntity = (LivingEntity) entity;
 
-            livingEntity.attackEntityFrom(DamageSource.CACTUS, 2.0F);
+			livingEntity.attackEntityFrom(DamageSource.CACTUS, 18.0F);
 
-            if (livingEntity instanceof PlayerEntity) {
-                PlayerEntity player = (PlayerEntity) livingEntity;
-                PlayerSacrificeHelper.findAndFillAltar(world, player, 50, true);
-            }
-        }
+			PlayerSacrificeHelper.findAndFillAltar(world, livingEntity, 15, true);
+		}
 
-        super.onEntityCollision(state, world, pos, entity);
-    }
+		super.onEntityCollision(state, world, pos, entity);
+	}
 
     @Override
     public VoxelShape getCollisionShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {

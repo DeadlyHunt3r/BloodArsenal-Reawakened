@@ -26,6 +26,9 @@
   "item.bloodarsenalreawakened.reagent_divinity_unawakened": "Dormant Pact Essence",
   "item.bloodarsenalreawakened.totem_of_blood_shielding": "Totem of Blood Shielding",
   "item.bloodarsenalreawakened.used_totem_of_blood_shielding": "Used Totem of Blood Shielding",
+  "item.bloodarsenalreawakened.heart_1": "Crimson Heart",
+  "item.bloodarsenalreawakened.heart_2": "Sanguine Heart",
+  "item.bloodarsenalreawakened.heart_3": "Heart of Ascension",
 
   "item.bloodarsenalreawakened.blood_infused_wooden_pickaxe": "Blood Infused Wooden Pickaxe",
   "item.bloodarsenalreawakened.blood_infused_wooden_shovel": "Blood Infused Wooden Shovel",
@@ -72,9 +75,12 @@
   "tooltip.bloodarsenalreawakened.ender_sigil.desc": "Slipping through End space",
   "tooltip.bloodarsenalreawakened.lightning_sigil.desc": "\"I am lightning, the rain transformed\"",
   "tooltip.bloodarsenalreawakened.divinity_sigil.desc": "Ultimate divine protection",
-  "tooltip.bloodarsenalreawakened.flight_sigil.desc": "Hold active to fly at the cost of Life Essence",
+  "tooltip.bloodarsenalreawakened.flight_sigil.desc": "Your blood knows the sky.",
   "tooltip.bloodarsenalreawakened.sigil_of_bloodlust.desc":"Unleash your power... But be ready to bleed",
   "tooltip.bloodarsenalreawakened.sigil_of_decayed_blood.desc":"Your blood remembers the way",
+  "tooltip.bloodarsenalreawakened.heart_1.desc": "Pulsing with raw blood energy. Grants +1 Heart permanently.",
+  "tooltip.bloodarsenalreawakened.heart_2.desc": "Infused with decay and darkness. Grants +1 Heart permanently.",
+  "tooltip.bloodarsenalreawakened.heart_3.desc": "Beats with the rhythm of forgotten gods. Grants +1 Heart permanently.",
 
   "tooltip.bloodarsenalreawakened.more_info": "Hold SHIFT for more info",
   "tooltip.bloodarsenalreawakened.level": "Level: %d",

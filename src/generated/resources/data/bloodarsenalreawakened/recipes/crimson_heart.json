@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "RGR",
+        "GHG",
+        "BGB"
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "G": {
+            "item": "minecraft:glistering_melon_slice"
+        },
+        "H": {
+            "item": "minecraft:golden_apple"
+        },
+        "B": {
+            "item": "bloodarsenalreawakened:blood_diamond"
+        }
+    },
+    "result": {
+        "item": "bloodarsenalreawakened:heart_1"
+    }
+}

@@ -33,31 +33,42 @@ public class BloodstormCleaverItem extends SwordItem {
         super(ItemTier.NETHERITE, 0, -2.4F, properties);
     }
 
-    @Override
-    public boolean hitEntity(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        boolean result = super.hitEntity(stack, target, attacker);
-        if (!attacker.world.isRemote && attacker instanceof PlayerEntity) {
-            if (!target.isAlive()) {
-                PlayerEntity player = (PlayerEntity) attacker;
-                CompoundNBT tag = stack.getOrCreateTag();
-                int level = tag.getInt("Level");
-                if (level < 100) {
-                    int kills = tag.getInt("KillCount") + 1;
-                    int required = getRequiredKills(level + 1);
-                    if (kills >= required) {
-                        level++;
-                        kills = 0;
-                        player.sendMessage(new StringTextComponent(TextFormatting.DARK_RED +
-                                "Bloodstorm Cleaver leveled up to Level " + level + "!"), player.getUniqueID());
-                    }
-                    tag.putInt("KillCount", kills);
-                }
-                tag.putInt("Level", level);
-                stack.setTag(tag);
-            }
-        }
-        return result;
-    }
+	@Override
+	public boolean hitEntity(ItemStack stack, LivingEntity target, LivingEntity attacker) {
+		boolean result = super.hitEntity(stack, target, attacker);
+    
+		if (!attacker.world.isRemote && attacker instanceof PlayerEntity) {
+			PlayerEntity player = (PlayerEntity) attacker;
+			CompoundNBT tag = stack.getOrCreateTag();
+
+			// BINDING
+			if (!tag.contains("OwnerUUID")) {
+				tag.putString("OwnerUUID", player.getUniqueID().toString());
+				player.sendStatusMessage(new StringTextComponent(
+						TextFormatting.GREEN + "You are now the owner of the Bloodstorm Cleaver."), true);
+				stack.setTag(tag);
+			}
+
+			// LEVEL-UP SYSTEM
+			if (!target.isAlive()) {
+				int level = tag.getInt("Level");
+				if (level < 100) {
+					int kills = tag.getInt("KillCount") + 1;
+					int required = getRequiredKills(level + 1);
+					if (kills >= required) {
+						level++;
+						kills = 0;
+						player.sendMessage(new StringTextComponent(TextFormatting.DARK_RED +
+								"Bloodstorm Cleaver leveled up to Level " + level + "!"), player.getUniqueID());
+					}
+					tag.putInt("KillCount", kills);
+				}
+				tag.putInt("Level", level);
+				stack.setTag(tag);
+			}
+		}
+		return result;
+	}
 
     private int getRequiredKills(int level) {
         return level * 10;
@@ -79,20 +90,6 @@ public class BloodstormCleaverItem extends SwordItem {
         return base;
     }
 
-    @Override
-    public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity player, Hand hand) {
-        ItemStack stack = player.getHeldItem(hand);
-        if (!world.isRemote) {
-            CompoundNBT tag = stack.getOrCreateTag();
-            if (!tag.contains("OwnerUUID")) {
-                tag.putString("OwnerUUID", player.getUniqueID().toString());
-                player.sendStatusMessage(new StringTextComponent(
-                        TextFormatting.GREEN + "You are now the owner of the Bloodstorm Cleaver."), true);
-                stack.setTag(tag);
-            }
-        }
-        return ActionResult.resultSuccess(stack);
-    }
 
     public static void onPlayerHoldingTick(PlayerEntity player, ItemStack stack) {
         if (player.world.isRemote) return;

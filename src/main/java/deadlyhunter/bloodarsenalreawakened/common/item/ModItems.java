@@ -36,6 +36,9 @@ public final class ModItems
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, BloodArsenalReawakened.MOD_ID);
 
     public static final Food FOOD_BLOOD_ORANGE = new Food.Builder().hunger(4).saturation(2).effect(new EffectInstance(Effects.REGENERATION, 80), 0.5F).setAlwaysEdible().build();
+	public static final Food FOOD_HEART_1 = new Food.Builder().hunger(2).saturation(0.1f).setAlwaysEdible().build();
+	public static final Food FOOD_HEART_2 = new Food.Builder().hunger(2).saturation(0.1f).setAlwaysEdible().build();
+	public static final Food FOOD_HEART_3 = new Food.Builder().hunger(2).saturation(0.1f).setAlwaysEdible().build();
 
     public static final RegistryObject<Item> GLASS_SHARD = registerItem("glass_shard", new BloodArsenalReawakenedItem(defaultBuilder(), true));
     public static final RegistryObject<Item> BLOOD_ORANGE = registerItem("blood_orange", new BloodArsenalReawakenedItem(defaultBuilder().food(FOOD_BLOOD_ORANGE)));
@@ -62,6 +65,9 @@ public final class ModItems
 	public static final RegistryObject<Item> REAGENT_DECAY = registerItem("reagent_decay",new Item(new Item.Properties().group(BloodArsenalReawakenedCreativeTab.INSTANCE).maxStackSize(1)));
 	public static final RegistryObject<Item> TOTEM_OF_BLOOD_SHIELDING = ITEMS.register("totem_of_blood_shielding",() -> new TotemOfBloodShieldingItem(new Item.Properties().maxStackSize(1).group(BloodArsenalReawakenedCreativeTab.INSTANCE)));
     public static final RegistryObject<Item> USED_TOTEM_OF_BLOOD_SHIELDING = ITEMS.register("used_totem_of_blood_shielding",() -> new UsedTotemOfBloodShieldingItem(new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)));
+	public static final RegistryObject<Item> HEART_1 = registerItem("heart_1", new BloodArsenalReawakenedItem(defaultBuilder().food(FOOD_HEART_1)));
+	public static final RegistryObject<Item> HEART_2 = registerItem("heart_2", new BloodArsenalReawakenedItem(defaultBuilder().food(FOOD_HEART_2)));
+	public static final RegistryObject<Item> HEART_3 = registerItem("heart_3", new BloodArsenalReawakenedItem(defaultBuilder().food(FOOD_HEART_3)));
 	
 
     public static final RegistryObject<Item> GLASS_SACRIFICIAL_DAGGER = registerItem("glass_sacrificial_dagger", new GlassSacrificialDaggerItem(unstackable()));

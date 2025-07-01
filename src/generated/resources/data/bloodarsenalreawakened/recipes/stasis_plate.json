@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TAT",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "bloodmagic:blankslate"
+    },
+    "T": {
+      "item": "bloodarsenalreawakened:blood_stained_glass"
+    },
+    "A": {
+      "item": "bloodarsenalreawakened:sparkling_blood_stained_glass"
+    }
+  },
+  "result": {
+    "item": "bloodarsenalreawakened:stasis_plate",
+    "count": 5
+  }
+}

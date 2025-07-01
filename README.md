@@ -38,6 +38,8 @@ If you have any questions, bugs, or ideas, feel free to reach out:
     Discord: 
 
     CurseForge: https://www.curseforge.com/minecraft/mc-mods/blood-arsenal-reawakened
+	
+	Modrinth: https://modrinth.com/mod/blood-arsenal-reawakened
 
 License
 
