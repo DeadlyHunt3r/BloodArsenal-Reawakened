@@ -23,7 +23,7 @@ Created and maintained by DeadlyHunter.
 3. Copy the Blood Arsenal Reawakened mod into the mods folder of your Minecraft installation directory
 4. Launch Minecraft using the Forge profile
 
-## Support & Feedback
+## Support & Feedback:
 
 If you have any questions, bugs, or ideas, feel free to reach out:
 
