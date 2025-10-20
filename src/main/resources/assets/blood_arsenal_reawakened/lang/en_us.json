@@ -1,0 +1,27 @@
+{
+  "itemGroup.blood_arsenal_reawakened": "Blood Arsenal Reawakened",
+ 
+  "item.blood_arsenal_reawakened.totem_of_blood_shielding": "Totem of Blood Shielding",
+  "tooltip.bloodarsenalreawakened.totem_of_blood_shielding.desc": "Prevents death once and becomes 'Used Totem of Blood Shielding'. Works anywhere in the inventory.",
+  "item.blood_arsenal_reawakened.used_totem_of_blood_shielding": "Used Totem of Blood Shielding",
+  "tooltip.bloodarsenalreawakened.used_totem_of_blood_shielding.desc": "It has expended its protective power.",
+  
+  "item.blood_arsenal_reawakened.crimson_heart": "Crimson Heart",
+  "tooltip.bloodarsenalreawakened.crimson_heart.desc": "Consume up to 10 times. Each use grants +1 permanent heart.",
+  "item.blood_arsenal_reawakened.sanguine_heart": "Sanguine Heart",
+  "tooltip.bloodarsenalreawakened.sanguine_heart.desc": "Consume up to 10 times. Each use grants +1 permanent heart.",
+  "item.blood_arsenal_reawakened.heart_of_ascension": "Heart of Ascension",
+  "tooltip.bloodarsenalreawakened.heart_of_ascension.desc": "Consume up to 10 times. Each use grants +1 permanent heart.",
+  
+
+  "item.blood_arsenal_reawakened.divinity_sigil": "Divinity Sigil",
+  "tooltip.bloodarsenalreawakened.divinity_sigil.desc": "Grants immortality and endless satiety when active.",
+  "item.blood_arsenal_reawakened.flight_sigil": "Flight Sigil",
+  "tooltip.bloodarsenalreawakened.flight_sigil.desc": "Grants creative-like flight while active.",
+  "item.blood_arsenal_reawakened.lightning_sigil": "Lightning Sigil",
+  "tooltip.bloodarsenalreawakened.lightning_sigil.desc": "Right-click: strike lightning where you look. Shift-right-click: cycle power level (1–5).",
+  "item.blood_arsenal_reawakened.sigil_of_decayed_blood": "Sigil of Decayed Blood",
+  "tooltip.bloodarsenalreawakened.sigil_of_decayed_blood.desc": "Shift+Right-Click: save current position & dimension. Right-Click: teleport back (cross-dimension).",
+  "item.blood_arsenal_reawakened.ender_sigil": "Ender Sigil",
+  "tooltip.bloodarsenalreawakened.ender_sigil.desc": "Right-click: teleport to the block you look at (or 20 blocks forward). Shift+Right-click: open your Ender Chest."
+}

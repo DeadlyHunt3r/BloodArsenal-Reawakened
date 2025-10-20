@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "side": "bloodarsenalreawakened:block/blood_infused_log",
-    "end": "bloodarsenalreawakened:block/blood_infused_log_top"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/template_glass_pane_noside_alt",
-  "textures": {
-    "pane": "bloodarsenalreawakened:block/blood_stained_glass"
-  }
-}

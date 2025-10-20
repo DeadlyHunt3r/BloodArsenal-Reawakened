@@ -1,22 +1,25 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normalize line endings for all text files
+* text=auto eol=lf
 
-# Custom for Visual Studio
-*.cs     diff=csharp
-*.sln    merge=union
-*.csproj merge=union
-*.vbproj merge=union
-*.fsproj merge=union
-*.dbproj merge=union
+# Treat common config and source files as text
+*.java text
+*.json text
+*.toml text
+*.md text
+*.gradle text
+*.yml text
+*.properties text
 
-# Standard to msysgit
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
+# Binary files - don't diff them
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ogg binary
+*.wav binary
+*.jar binary
+*.zip binary
+
+# Optional: handle Windows vs Linux scripts correctly
+*.bat text eol=crlf
+*.sh  text eol=lf

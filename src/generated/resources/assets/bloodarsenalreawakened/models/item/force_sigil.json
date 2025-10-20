@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "bloodarsenalreawakened:item/force_sigil"
-  }
-}

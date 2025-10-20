@@ -1,38 +1,47 @@
-# General use .gitignore for Minecraft modding.
+# Gradle
+.gradle/
+build/
+out/
+run/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
 
-# Directories
-/.gradle/
-/build/
-/eclipse
-/run/
-/out/
-/asm/
-/bin/
-/config/
-crash-reports/
-/.idea/
-/.metadata/
-/libs/
-/saves/
-/resourcepacks/
-/logs/
-/mods/
-/screenshots/
-/classes/
-
-# File Extensions
-*.psd
+# IntelliJ IDEA
+.idea/
 *.iml
-*.ipr
 *.iws
-*.classpath
-*.project
+*.ipr
 
-# Specific files
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VSCode
+.vscode/
+
+# Minecraft-specific
+logs/
+crash-reports/
+saves/
+mods/
+screenshots/
+config/
+resourcepacks/
+
+# OS-specific
+.DS_Store
 Thumbs.db
+
+# Minecraft runtime files
+usercache.json
 usernamecache.json
 options.txt
+
+# Legacy Forge launch configs
 BloodArsenalReawakened_Client.launch
 BloodArsenalReawakened_Server.launch
 
-usercache.json
+# Forge MDK leftovers
+forge*changelog.txt

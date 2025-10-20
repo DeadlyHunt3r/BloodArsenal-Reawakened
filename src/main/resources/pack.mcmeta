@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 6,
-    "description": "Resources used for Blood Arsenal: Reawakened"
+    "pack_format": 15,
+    "description": "${mod_name} Resources (${mc_version})"
   }
 }

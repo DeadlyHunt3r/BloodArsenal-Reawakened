@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "side": "bloodarsenalreawakened:block/blood_infused_planks",
-    "bottom": "bloodarsenalreawakened:block/blood_infused_planks",
-    "top": "bloodarsenalreawakened:block/blood_infused_planks"
-  }
-}

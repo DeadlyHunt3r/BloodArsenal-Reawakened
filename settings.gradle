@@ -1,1 +1,11 @@
-rootProject.name = 'BloodArsenalReawakened'
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven { name = 'MinecraftForge'; url = 'https://maven.minecraftforge.net/' }
+    }
+    plugins {
+        id 'net.minecraftforge.gradle' version '6.0.+'
+    }
+}
+
+rootProject.name = "BloodArsenalReawakened 1.20.1"

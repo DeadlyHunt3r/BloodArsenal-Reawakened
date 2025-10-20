@@ -1,159 +1,128 @@
-buildscript {
-    repositories {
-        mavenCentral()
-        maven {
-            name "forge"
-            url "https://files.minecraftforge.net/maven"
-        }
-    }
-    dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
-    }
+plugins {
+    id 'eclipse'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '6.0.+'
 }
-
-apply plugin: 'net.minecraftforge.gradle'
-apply plugin: 'eclipse'
-apply plugin: 'maven-publish'
 
 group = package_group
-archivesBaseName = mod_name
-version = "${mc_version}-${build_number}"
+version = "${mod_version}+mc${mc_version}-b${build_number}"
 
-sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
-
-compileJava.options.compilerArgs << "-Xlint:all,-classfile,-processing,-deprecation" << "-Werror"
-
-minecraft {
-    mappings channel: 'snapshot', version: "20200916-1.16.2"
-//    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
-    runs {
-        client {
-            properties 'forge.logging.console.level': 'debug'
-            properties 'fml.earlyprogresswindow': 'false'
-            properties 'mixin.env.disableRefMap': 'true'
-            workingDirectory project.file('run')
-            mods {
-                bloodarsenalreawakened {
-                    source sourceSets.main
-                }
-            }
-        }
-        server {
-            properties 'forge.logging.console.level': 'debug'
-            properties 'mixin.env.disableRefMap': 'true'
-            workingDirectory project.file('run')
-            mods {
-                bloodarsenalreawakened {
-                    source sourceSets.main
-                }
-            }
-        }
-        data {
-            properties 'fml.earlyprogresswindow': 'false'
-            properties 'mixin.env.disableRefMap': 'true'
-            workingDirectory project.file('run')
-            forceExit false
-            mods {
-                bloodarsenalreawakened {
-                    source sourceSets.main
-                }
-            }
-            args '--mod', 'bloodarsenalreawakened', '--all',
-                    '--existing', '"' + file('src/main/resources/') + '"',
-                    '--existing', '"' + file('src/generated/resources/') + '"',
-                    '--output', '"' + file('src/generated/resources/') + '"'
-        }
-    }
+base {
+    archivesName = mod_name
 }
 
-sourceSets.main.resources {
-    srcDir 'src/generated/resources'
+java {
+    toolchain { languageVersion = JavaLanguageVersion.of(17) }
+    withSourcesJar()
 }
 
 repositories {
     mavenCentral()
-    maven {
-        url "https://maven.blamejared.com"
+    maven { url "https://maven.minecraftforge.net" }
+    maven { url "https://maven.blamejared.com" }
+    maven { url "https://dvs1.progwml6.com/files/maven" }
+    maven { url "https://www.cursemaven.com" }
+}
+
+minecraft {
+
+    mappings channel: 'official', version: mc_version
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'debug'
+            args '--username', 'Dev'
+            mods {
+                "${mod_id}" { source sourceSets.main }
+            }
+        }
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'debug'
+            mods {
+                "${mod_id}" { source sourceSets.main }
+            }
+        }
+        data {
+            workingDirectory project.file('run')
+            args '--mod', mod_id,
+                 '--all',
+                 '--existing', file('src/main/resources/'),
+                 '--existing', file('src/generated/resources/'),
+                 '--output',   file('src/generated/resources/')
+            mods {
+                "${mod_id}" { source sourceSets.main }
+            }
+        }
     }
-    maven {
-        url "https://dvs1.progwml6.com/files/maven"
-    }
-    maven {
-        url "https://minecraft.curseforge.com/api/maven/"
-    }
-    maven {
-        url "https://www.cursemaven.com"
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDir 'src/generated/resources'
+        }
     }
 }
 
 dependencies {
-    minecraft "net.minecraftforge:forge:${forge_version}"
 
-    compileOnly fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}:api")
-    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}")
+    minecraft "net.minecraftforge:forge:${forge_artifact}"
 
-    compileOnly fg.deobf("mezz.jei:jei-${jei_version}:api")
-    runtimeOnly fg.deobf("mezz.jei:jei-${jei_version}")
+    // Patchouli
+    compileOnly "vazkii.patchouli:Patchouli:${patchouli_version}:api"
+    runtimeOnly "vazkii.patchouli:Patchouli:${patchouli_version}"
 
-//    compileOnly "com.wayoftime.bloodmagic:BloodMagic:${bloodmagic_version}:api"
-//    runtimeOnly "com.wayoftime.bloodmagic:BloodMagic:${bloodmagic_version}"
-    compileOnly fg.deobf("curse.maven:bloodmagic-224791:${bloodmagic_fileid}")
-    runtimeOnly fg.deobf("curse.maven:bloodmagic-224791:${bloodmagic_fileid}")
+    // compileOnly "mezz.jei:jei-${jei_version}:api"
+    // runtimeOnly  "mezz.jei:jei-${jei_version}"
+
+    // implementation "top.theillusivec4.curios:curios-forge:${curios_version}"
+
+    // compileOnly "curse.maven:bloodmagic-224791:<FILE_ID>"
+    // runtimeOnly  "curse.maven:bloodmagic-224791:<FILE_ID>"
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 17
+    options.compilerArgs << "-Xlint:deprecation" << "-Xlint:unchecked"
+}
+
+processResources {
+
+    def replaceProps = [
+        mod_id       : project.findProperty('mod_id'),
+        mod_name     : project.findProperty('mod_name'),
+        mod_version  : project.version,
+        mc_version   : project.findProperty('mc_version')
+    ]
+    inputs.properties replaceProps
+    filesMatching(['META-INF/mods.toml','pack.mcmeta']) {
+        expand replaceProps
+    }
 }
 
 jar {
     manifest {
-        attributes(["Specification-Title": "bloodarsenalreawakened",
-                    "Specification-Vendor": "bloodarsenalreawakened",
-                    "Specification-Version": "1",
-                    "Implementation-Title": project.name,
-                    "Implementation-Version": "${version}",
-                    "Implementation-Vendor": "bloodarsenalreawakened",
-                    "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
-        ])
+        attributes(
+            "Specification-Title": mod_id,
+            "Specification-Vendor": mod_id,
+            "Specification-Version": "1",
+            "Implementation-Title": project.name,
+            "Implementation-Version": project.version,
+            "Implementation-Vendor": mod_id,
+            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        )
     }
-
-    exclude "**/*.bat"
-    exclude "**/*.psd"
-    exclude "**/*.exe"
-}
-
-task srcJar(type: Jar) {
-    from(sourceSets.main.java)
-    classifier = 'sources'
-}
-
-artifacts {
-    archives srcJar
-}
-
-/**
- * Increments the buildnumber in your config file, and saves it
- * Note: The doFirst is important, without it the build number
- * will be incremented every time tasks are configured, i.e every
- * time gradle is run on this project.
- */
-task incrementBuildNumber {
-    doFirst {
-        build_number = (build_number.toString().toInteger()) + 1
-        configFile.withWriter {
-            config.toProperties().store(it, "")
-        }
-    }
+    exclude "**/*.bat", "**/*.psd", "**/*.exe"
 }
 
 publishing {
-    tasks.publish.dependsOn build
     publications {
-        mavenJava(MavenPublication) {
-            artifact jar
-            artifact srcJar
-        }
+        mavenJava(MavenPublication) { from components.java }
     }
-
     repositories {
-        maven {
-            url "file:///${project.projectDir}/mcmodsrepo"
-        }
+        maven { url "file:///${project.projectDir}/mcmodsrepo" }
     }
 }
