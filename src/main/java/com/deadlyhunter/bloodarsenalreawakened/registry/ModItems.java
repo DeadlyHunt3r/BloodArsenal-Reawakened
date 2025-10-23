@@ -14,6 +14,10 @@ import com.deadlyhunter.bloodarsenalreawakened.item.sigil.EnderSigilItem;
 import com.deadlyhunter.bloodarsenalreawakened.item.TotemOfBloodShieldingItem;
 import com.deadlyhunter.bloodarsenalreawakened.item.UsedTotemOfBloodShieldingItem;
 import com.deadlyhunter.bloodarsenalreawakened.item.heart.HeartItem;
+import com.deadlyhunter.bloodarsenalreawakened.gear.BloodArmorItems;
+import com.deadlyhunter.bloodarsenalreawakened.gear.ModArmorMaterials;
+import com.deadlyhunter.bloodarsenalreawakened.item.TooltipItem;
+import net.minecraft.world.item.Rarity;
 
 
 public class ModItems {
@@ -26,7 +30,30 @@ public class ModItems {
 		
 	public static final RegistryObject<Item> USED_TOTEM_OF_BLOOD_SHIELDING = REGISTER.register("used_totem_of_blood_shielding", () -> new UsedTotemOfBloodShieldingItem(new Item.Properties().stacksTo(1).rarity(net.minecraft.world.item.Rarity.UNCOMMON)));	
 			
-			
+	public static final RegistryObject<Item> DRAGON_CLAW = REGISTER.register("dragon_claw", () -> new Item(new Item.Properties().stacksTo(64).rarity(Rarity.RARE)));
+
+	public static final RegistryObject<Item> BLEEDING_DRAGON = REGISTER.register("bleeding_dragon", () -> new Item(new Item.Properties().stacksTo(64).rarity(Rarity.EPIC)));
+
+	public static final RegistryObject<Item> ESSENCE_OF_DECAY = REGISTER.register("essence_of_decay", () -> new Item(new Item.Properties().stacksTo(64).rarity(Rarity.RARE)));
+
+	public static final RegistryObject<Item> REAGENT_FLIGHT = REGISTER.register("reagent_flight", () -> new TooltipItem(new Item.Properties(), "reagent_flight"));
+	
+	public static final RegistryObject<Item> REAGENT_ENDER = REGISTER.register("reagent_ender", () -> new TooltipItem(new Item.Properties(), "reagent_ender"));
+	
+	public static final RegistryObject<Item> REAGENT_LIGHTNING = REGISTER.register("reagent_lightning", () -> new TooltipItem(new Item.Properties(), "reagent_lightning"));
+	
+	public static final RegistryObject<Item> REAGENT_DIVINITY = REGISTER.register("reagent_divinity", () -> new TooltipItem(new Item.Properties(), "reagent_divinity"));
+	
+	public static final RegistryObject<Item> REAGENT_DIVINITY_UNAWAKENED = REGISTER.register("reagent_divinity_unawakened", () -> new TooltipItem(new Item.Properties(), "reagent_divinity_unawakened"));
+	
+	public static final RegistryObject<Item> REAGENT_BLOODLUST = REGISTER.register("reagent_bloodlust", () -> new TooltipItem(new Item.Properties(), "reagent_bloodlust"));
+	
+	public static final RegistryObject<Item> REAGENT_DECAY = REGISTER.register("reagent_decay", () -> new TooltipItem(new Item.Properties(), "reagent_decay"));
+	
+	
+	
+	
+	
 	// SIGIL
 			
 	public static final RegistryObject<Item> DIVINITY_SIGIL = REGISTER.register("divinity_sigil", () -> new DivinitySigilItem(new Item.Properties()));
@@ -46,4 +73,28 @@ public class ModItems {
 	public static final RegistryObject<Item> SANGUINE_HEART = REGISTER.register("sanguine_heart", () -> new HeartItem(new Item.Properties().rarity(Rarity.RARE), HeartItem.Type.SANGUINE));
 
 	public static final RegistryObject<Item> HEART_OF_ASCENSION = REGISTER.register("heart_of_ascension", () -> new HeartItem(new Item.Properties().rarity(Rarity.EPIC), HeartItem.Type.ASCENSION));
+	
+	// Rüstung
+	
+	public static final RegistryObject<Item> HELM_OF_BLOODSIGHT = REGISTER.register("helm_of_bloodsight", () -> new BloodArmorItems.HelmOfBloodsight(ModArmorMaterials.BLOOD_TRANSCENDENCE,new Item.Properties().rarity(Rarity.RARE)));
+	
+	public static final RegistryObject<Item> BREASTPLATE_OF_FURY = REGISTER.register("breastplate_of_fury", () -> new BloodArmorItems.BreastplateOfFury(ModArmorMaterials.BLOOD_TRANSCENDENCE,new Item.Properties().rarity(Rarity.RARE)));
+	
+	public static final RegistryObject<Item> HUNTERS_GREAVES = REGISTER.register("hunters_greaves", () -> new BloodArmorItems.HuntersGreaves(ModArmorMaterials.BLOOD_TRANSCENDENCE,new Item.Properties().rarity(Rarity.RARE)));
+	
+	public static final RegistryObject<Item> BOOTS_OF_THE_FROSTBLOOD = REGISTER.register("boots_of_the_frostblood", () -> new BloodArmorItems.BootsOfTheFrostblood(ModArmorMaterials.BLOOD_TRANSCENDENCE,new Item.Properties().rarity(Rarity.RARE)));
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

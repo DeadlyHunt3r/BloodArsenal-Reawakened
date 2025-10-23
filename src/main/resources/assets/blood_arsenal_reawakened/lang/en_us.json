@@ -13,7 +13,40 @@
   "item.blood_arsenal_reawakened.heart_of_ascension": "Heart of Ascension",
   "tooltip.bloodarsenalreawakened.heart_of_ascension.desc": "Consume up to 10 times. Each use grants +1 permanent heart.",
   
+  "item.blood_arsenal_reawakened.reagent_flight": "Reagent Flight",
+  "item.blood_arsenal_reawakened.reagent_ender": "Reagent Ender",
+  "item.blood_arsenal_reawakened.reagent_lightning": "Reagent Lightning",
+  "item.blood_arsenal_reawakened.reagent_divinity": "Reagent Divinity",
+  "item.blood_arsenal_reawakened.reagent_divinity_unawakened": "Reagent Divinity Unawakened",
+  "item.blood_arsenal_reawakened.reagent_bloodlust": "Reagent Bloodlust",
+  "item.blood_arsenal_reawakened.reagent_decay": "Reagent Decay",
+  "tooltip.blood_arsenal_reawakened.reagent_flight.desc": "An essence of sky and motion.",
+  "tooltip.blood_arsenal_reawakened.reagent_ender.desc": "Condensed void energy, pulsing with teleportation magic.",
+  "tooltip.blood_arsenal_reawakened.reagent_lightning.desc": "Crackles faintly with bottled storm power.",
+  "tooltip.blood_arsenal_reawakened.reagent_divinity.desc": "A fragment of divine power, awakened and pure.",
+  "tooltip.blood_arsenal_reawakened.reagent_divinity_unawakened.desc": "A dormant spark awaiting divine ignition.",
+  "tooltip.blood_arsenal_reawakened.reagent_bloodlust.desc": "Thirsts eternally for battle and blood.",
+  "tooltip.blood_arsenal_reawakened.reagent_decay.desc": "The stench of death and rot clings to this essence.",
 
+  
+  "item.blood_arsenal_reawakened.dragon_claw": "Dragon Claw",
+  "item.blood_arsenal_reawakened.bleeding_dragon": "Bleeding Dragons Eye",
+  "item.blood_arsenal_reawakened.essence_of_decay": "Essence of Decay",
+
+  "item.blood_arsenal_reawakened.helm_of_bloodsight": "Helm of Bloodsight",
+  "tooltip.bloodarsenalreawakened.helm_of_bloodsight.desc": "Grants Night Vision while worn.",
+
+  "item.blood_arsenal_reawakened.breastplate_of_fury": "Breastplate of Fury",
+  "tooltip.bloodarsenalreawakened.breastplate_of_fury.desc": "Grants Haste II while worn.",
+
+  "item.blood_arsenal_reawakened.hunters_greaves": "Hunter's Greaves",
+  "tooltip.bloodarsenalreawakened.hunters_greaves.desc": "Grants Speed II while worn.",
+
+  "item.blood_arsenal_reawakened.boots_of_the_frostblood": "Boots of the Frostblood",
+  "tooltip.bloodarsenalreawakened.boots_of_the_frostblood.desc": "Applies Frost Walker effect on water while worn.",
+  
+  "tooltip.bloodarsenalreawakened.blood_arsenal_reawakened.armor_hint": "Wear all 4 pieces for the set bonus.",
+  
   "item.blood_arsenal_reawakened.divinity_sigil": "Divinity Sigil",
   "tooltip.bloodarsenalreawakened.divinity_sigil.desc": "Grants immortality and endless satiety when active.",
   "item.blood_arsenal_reawakened.flight_sigil": "Flight Sigil",

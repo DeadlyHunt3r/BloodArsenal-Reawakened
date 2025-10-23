@@ -4,12 +4,12 @@
 
 Blood Arsenal Reawakened is a continuation and modernization of the original Blood Arsenal mod by Arcaratus.
 It expands and improves the Blood Magic experience with new content, bug fixes, and better compatibility.
-Currently targeting Minecraft 1.16.5 with Blood Magic 3.0.0, with plans to support newer Minecraft versions in the future.
+Currently targeting Minecraft 1.20.1 with Blood Magic 3.3.0, with plans to support newer Minecraft versions in the future.
 Created and maintained by DeadlyHunter.
 
 ## Features:
 
-- Compatible with Blood Magic 3.0.0 and Minecraft 1.16.5
+- Compatible with Blood Magic 3.3.0 and Minecraft 1.20.1
 - New items and sigils
 - Bug fixes and performance improvements
 - Support for JEI (Just Enough Items)
@@ -18,12 +18,12 @@ Created and maintained by DeadlyHunter.
 
 ## Installation:
 
-1. Install Minecraft Forge (recommended version 1.16.5-36.2.34 or newer)
-2. Install the Blood Magic mod (version 3.0.0 or newer)
+1. Install Minecraft Forge (recommended version 1.20.1-47.0.00 or newer)
+2. Install the Blood Magic mod (version 3.3.0 or newer)
 3. Copy the Blood Arsenal Reawakened mod into the mods folder of your Minecraft installation directory
 4. Launch Minecraft using the Forge profile
 
-## Support & Feedback:
+## Support & Feedback
 
 If you have any questions, bugs, or ideas, feel free to reach out:
 

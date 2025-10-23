@@ -1,0 +1,8 @@
+{
+  "type": "blood_arsenal_reawakened:add_item",
+  "conditions": [
+    { "condition": "forge:loot_table_id", "loot_table_id": "minecraft:entities/wither" }
+  ],
+  "item": "blood_arsenal_reawakened:essence_of_decay",
+  "chance": 0.25
+}

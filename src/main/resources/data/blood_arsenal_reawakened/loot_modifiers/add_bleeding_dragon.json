@@ -1,0 +1,8 @@
+{
+  "type": "blood_arsenal_reawakened:add_item",
+  "conditions": [
+    { "condition": "forge:loot_table_id", "loot_table_id": "minecraft:entities/ender_dragon" }
+  ],
+  "item": "blood_arsenal_reawakened:bleeding_dragon",
+  "chance": 0.10
+}

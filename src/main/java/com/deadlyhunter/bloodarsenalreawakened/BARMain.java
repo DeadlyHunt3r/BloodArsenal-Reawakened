@@ -4,6 +4,7 @@ import com.deadlyhunter.bloodarsenalreawakened.registry.ModBlocks;
 import com.deadlyhunter.bloodarsenalreawakened.registry.ModCreativeTabs;
 import com.deadlyhunter.bloodarsenalreawakened.registry.ModItems;
 import com.deadlyhunter.bloodarsenalreawakened.datagen.ModDataGen;
+import com.deadlyhunter.bloodarsenalreawakened.loot.ModLootModifiers;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,6 +20,7 @@ public class BARMain {
         ModItems.REGISTER.register(modBus);
         ModBlocks.REGISTER.register(modBus);
         ModCreativeTabs.REGISTER.register(modBus);
+		ModLootModifiers.REGISTER.register(modBus);
 
         ModDataGen.register(modBus);
     }

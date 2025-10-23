@@ -19,8 +19,19 @@ java {
 repositories {
     mavenCentral()
     maven { url "https://maven.minecraftforge.net" }
-    maven { url "https://maven.blamejared.com" }
-    maven { url "https://dvs1.progwml6.com/files/maven" }
+
+    // JEI – offizielles Repo
+    maven {
+        name = "Progwml6 JEI"
+        url = "https://dvs1.progwml6.com/files/maven"
+        content { includeGroup "mezz.jei" }
+    }
+
+    // Patchouli etc. (JEI hier explizit ausschließen)
+    maven {
+        url = "https://maven.blamejared.com"
+        content { excludeGroup "mezz.jei" }
+    }
     maven { url "https://www.cursemaven.com" }
 }
 
@@ -67,20 +78,17 @@ sourceSets {
 }
 
 dependencies {
-
     minecraft "net.minecraftforge:forge:${forge_artifact}"
 
     // Patchouli
     compileOnly "vazkii.patchouli:Patchouli:${patchouli_version}:api"
-    runtimeOnly "vazkii.patchouli:Patchouli:${patchouli_version}"
+    runtimeOnly  "vazkii.patchouli:Patchouli:${patchouli_version}"
 
-    // compileOnly "mezz.jei:jei-${jei_version}:api"
-    // runtimeOnly  "mezz.jei:jei-${jei_version}"
+    // compileOnly "mezz.jei:jei-${jei_mc}-common-api:${jei_version}"
+    // compileOnly "mezz.jei:jei-${jei_mc}-forge-api:${jei_version}"
+    // runtimeOnly  "mezz.jei:jei-${jei_mc}-forge:${jei_version}"
 
-    // implementation "top.theillusivec4.curios:curios-forge:${curios_version}"
-
-    // compileOnly "curse.maven:bloodmagic-224791:<FILE_ID>"
-    // runtimeOnly  "curse.maven:bloodmagic-224791:<FILE_ID>"
+   // curios / bloodmagic 
 }
 
 tasks.withType(JavaCompile).configureEach {

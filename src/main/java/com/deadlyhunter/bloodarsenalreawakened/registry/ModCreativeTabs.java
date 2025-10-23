@@ -27,6 +27,21 @@ public class ModCreativeTabs {
 						output.accept(ModItems.CRIMSON_HEART.get());
 						output.accept(ModItems.SANGUINE_HEART.get());
 						output.accept(ModItems.HEART_OF_ASCENSION.get());
+						output.accept(ModItems.HELM_OF_BLOODSIGHT.get());
+						output.accept(ModItems.BREASTPLATE_OF_FURY.get());
+						output.accept(ModItems.HUNTERS_GREAVES.get());
+						output.accept(ModItems.BOOTS_OF_THE_FROSTBLOOD.get());
+						output.accept(ModItems.DRAGON_CLAW.get());
+						output.accept(ModItems.BLEEDING_DRAGON.get());
+						output.accept(ModItems.ESSENCE_OF_DECAY.get());
+						
+						output.accept(ModItems.REAGENT_FLIGHT.get());
+                        output.accept(ModItems.REAGENT_ENDER.get());
+                        output.accept(ModItems.REAGENT_LIGHTNING.get());
+                        output.accept(ModItems.REAGENT_DIVINITY.get());
+                        output.accept(ModItems.REAGENT_DIVINITY_UNAWAKENED.get());
+                        output.accept(ModItems.REAGENT_BLOODLUST.get());
+                        output.accept(ModItems.REAGENT_DECAY.get());
                     })
                     .build());
 }
