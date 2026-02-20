@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "blood_arsenal_reawakened:item/blood_bound_executioner"
+  }
+}

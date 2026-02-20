@@ -56,5 +56,14 @@
   "item.blood_arsenal_reawakened.sigil_of_decayed_blood": "Sigil of Decayed Blood",
   "tooltip.bloodarsenalreawakened.sigil_of_decayed_blood.desc": "Shift+Right-Click: save current position & dimension. Right-Click: teleport back (cross-dimension).",
   "item.blood_arsenal_reawakened.ender_sigil": "Ender Sigil",
-  "tooltip.bloodarsenalreawakened.ender_sigil.desc": "Right-click: teleport to the block you look at (or 20 blocks forward). Shift+Right-click: open your Ender Chest."
+  "tooltip.bloodarsenalreawakened.ender_sigil.desc": "Right-click: teleport to the block you look at (or 20 blocks forward). Shift+Right-click: open your Ender Chest.",
+  "item.blood_arsenal_reawakened.sigil_of_the_bloodmoon": "Sigil of the Bloodmoon",
+  "tooltip.bloodarsenalreawakened.sigil_of_the_bloodmoon.desc": "When the blood of the earth touches the sky, the light gives way to eternal night.",
+  "item.blood_arsenal_reawakened.bloodlust_sigil": "Bloodlust Sigil",
+  "tooltip.bloodarsenalreawakened.bloodlust_sigil.desc": "Vampiric Hunger",
+  
+  "item.blood_arsenal_reawakened.blood_bound_executioner": "Blood-Bound Executioner",
+  "tooltip.bloodarsenalreawakened.blood_bound_executioner.desc": "§oA blade forged in ritual. Executes the weak to feed your soul network. Shift-Right Click to hurl a spear of blood.",
+  
+  "item.blood_arsenal_reawakened.guide_book": "Blood Arsenal Guide"
 }

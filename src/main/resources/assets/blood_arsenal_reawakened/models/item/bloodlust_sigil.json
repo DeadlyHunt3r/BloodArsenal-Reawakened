@@ -1,0 +1,4 @@
+{
+  "parent": "item/generated",
+  "textures": { "layer0": "blood_arsenal_reawakened:item/sigil_of_bloodlust" }
+}

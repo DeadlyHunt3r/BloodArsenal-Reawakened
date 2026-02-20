@@ -3,6 +3,7 @@ package com.deadlyhunter.bloodarsenalreawakened.registry;
 import com.deadlyhunter.bloodarsenalreawakened.BARMain;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -11,12 +12,16 @@ import com.deadlyhunter.bloodarsenalreawakened.item.sigil.FlightSigilItem;
 import com.deadlyhunter.bloodarsenalreawakened.item.sigil.LightningSigilItem;
 import com.deadlyhunter.bloodarsenalreawakened.item.sigil.SigilOfDecayedBloodItem;
 import com.deadlyhunter.bloodarsenalreawakened.item.sigil.EnderSigilItem;
+import com.deadlyhunter.bloodarsenalreawakened.item.sigil.SigilOfTheBloodMoonItem;
+import com.deadlyhunter.bloodarsenalreawakened.item.sigil.BloodLustSigilItem;
 import com.deadlyhunter.bloodarsenalreawakened.item.TotemOfBloodShieldingItem;
 import com.deadlyhunter.bloodarsenalreawakened.item.UsedTotemOfBloodShieldingItem;
+import com.deadlyhunter.bloodarsenalreawakened.item.BloodGuideItem;
 import com.deadlyhunter.bloodarsenalreawakened.item.heart.HeartItem;
 import com.deadlyhunter.bloodarsenalreawakened.gear.BloodArmorItems;
 import com.deadlyhunter.bloodarsenalreawakened.gear.ModArmorMaterials;
 import com.deadlyhunter.bloodarsenalreawakened.item.TooltipItem;
+import com.deadlyhunter.bloodarsenalreawakened.item.item.BloodBoundExecutionerItem;
 import net.minecraft.world.item.Rarity;
 
 
@@ -50,6 +55,8 @@ public class ModItems {
 	
 	public static final RegistryObject<Item> REAGENT_DECAY = REGISTER.register("reagent_decay", () -> new TooltipItem(new Item.Properties(), "reagent_decay"));
 	
+	public static final RegistryObject<Item> GUIDE_BOOK = REGISTER.register("guide_book",  () -> new BloodGuideItem(new Item.Properties().stacksTo(1)));
+	
 	
 	
 	
@@ -65,6 +72,10 @@ public class ModItems {
 	public static final RegistryObject<Item> SIGIL_OF_DECAYED_BLOOD = REGISTER.register("sigil_of_decayed_blood", () -> new SigilOfDecayedBloodItem(new Item.Properties()));
 	
 	public static final RegistryObject<Item> ENDER_SIGIL = REGISTER.register("ender_sigil", () -> new EnderSigilItem(new Item.Properties()));
+	
+	public static final RegistryObject<Item> SIGIL_OF_THE_BLOODMOON = REGISTER.register("sigil_of_the_bloodmoon", () -> new SigilOfTheBloodMoonItem(new Item.Properties()));
+	
+	public static final RegistryObject<Item> BLOODLUST_SIGIL = REGISTER.register("bloodlust_sigil",  () -> new BloodLustSigilItem(new Item.Properties()));
 	
 	// HEART
 	
@@ -83,6 +94,10 @@ public class ModItems {
 	public static final RegistryObject<Item> HUNTERS_GREAVES = REGISTER.register("hunters_greaves", () -> new BloodArmorItems.HuntersGreaves(ModArmorMaterials.BLOOD_TRANSCENDENCE,new Item.Properties().rarity(Rarity.RARE)));
 	
 	public static final RegistryObject<Item> BOOTS_OF_THE_FROSTBLOOD = REGISTER.register("boots_of_the_frostblood", () -> new BloodArmorItems.BootsOfTheFrostblood(ModArmorMaterials.BLOOD_TRANSCENDENCE,new Item.Properties().rarity(Rarity.RARE)));
+	
+	// Waffen
+	
+	public static final RegistryObject<Item> BLOOD_BOUND_EXECUTIONER = REGISTER.register("blood_bound_executioner",  () -> new BloodBoundExecutionerItem(Tiers.NETHERITE, 7, -2.4F, new Item.Properties().fireResistant().stacksTo(1).rarity(Rarity.EPIC)));
 	
 	
 	

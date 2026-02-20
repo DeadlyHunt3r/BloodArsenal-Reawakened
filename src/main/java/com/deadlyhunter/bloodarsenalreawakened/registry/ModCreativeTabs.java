@@ -18,6 +18,7 @@ public class ModCreativeTabs {
                     .icon(() -> new ItemStack(ModItems.TOTEM_OF_BLOOD_SHIELDING.get()))
                     .displayItems((params, output) -> {
 						output.accept(ModItems.DIVINITY_SIGIL.get());
+						output.accept(ModItems.BLOODLUST_SIGIL.get());
 						output.accept(ModItems.FLIGHT_SIGIL.get());
 						output.accept(ModItems.LIGHTNING_SIGIL.get());
 						output.accept(ModItems.SIGIL_OF_DECAYED_BLOOD.get());
@@ -34,6 +35,9 @@ public class ModCreativeTabs {
 						output.accept(ModItems.DRAGON_CLAW.get());
 						output.accept(ModItems.BLEEDING_DRAGON.get());
 						output.accept(ModItems.ESSENCE_OF_DECAY.get());
+						output.accept(ModItems.SIGIL_OF_THE_BLOODMOON.get());
+						output.accept(ModItems.BLOOD_BOUND_EXECUTIONER.get());
+						output.accept(ModItems.GUIDE_BOOK.get());
 						
 						output.accept(ModItems.REAGENT_FLIGHT.get());
                         output.accept(ModItems.REAGENT_ENDER.get());
