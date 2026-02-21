@@ -16,7 +16,7 @@ import wayoftime.bloodmagic.util.helper.NetworkHelper;
 
 public class FlightSigilItem extends SigilBaseItem.Toggleable {
     
-    private static final int LP_COST_PER_TICK = 5; 
+    private static final int LP_COST_PER_TICK = 20; 
 
     public FlightSigilItem(Item.Properties props) { 
         super(props.stacksTo(1)); 
@@ -29,7 +29,7 @@ public class FlightSigilItem extends SigilBaseItem.Toggleable {
             SoulNetwork network = NetworkHelper.getSoulNetwork(player);
 
             if (!SigilBaseItem.Toggleable.isActive(stack) && network.getCurrentEssence() < 100) {
-                player.displayClientMessage(Component.literal("Not enough LP to activate Flight!")
+                player.displayClientMessage(Component.literal("Insufficient LP!")
                         .withStyle(ChatFormatting.RED), true);
                 return InteractionResultHolder.fail(stack);
             }

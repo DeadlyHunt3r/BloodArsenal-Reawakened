@@ -1,0 +1,15 @@
+{
+  "name": "Crimson Heart",
+  "category": "blood_arsenal_reawakened:hearts",
+  "icon": "blood_arsenal_reawakened:crimson_heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(4)Crimson Heart$() is the first step toward physical ascension. By consuming its crystallized essence, you permanently strengthen your life force."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can consume up to $(6)10 Crimson Hearts$(). Each one will grant you $(4)one additional heart$() on your health bar. Once you reach the limit, the crimson essence can no longer be absorbed."
+    }
+  ]
+}

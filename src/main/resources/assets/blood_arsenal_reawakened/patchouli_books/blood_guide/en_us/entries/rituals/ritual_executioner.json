@@ -1,0 +1,15 @@
+{
+  "name": "The Executioner's Birth",
+  "category": "blood_arsenal_reawakened:rituals",
+  "icon": "blood_arsenal_reawakened:blood_bound_executioner",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "To forge the ultimate blade, you must perform a drop-sacrifice. Throw the following items together on the $(n)ground$():$(br2)* $(5)Soul Anchor$()$(br)* $(7)Sentient Sword$()$(br)* $(4)Bleeding Dragon's Eye$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Once the items touch, the essence will merge, consuming the components to birth the $(4)Blood Bound Executioner$()."
+    }
+  ]
+}

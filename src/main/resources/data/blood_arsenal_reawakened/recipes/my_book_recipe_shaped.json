@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BXB",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:redstone"
+    },
+    "X": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "patchouli:guide_book",
+    "count": 1,
+    "nbt": "{'patchouli:book': 'blood_arsenal_reawakened:blood_guide'}"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Sanguine Scythe",
+  "category": "blood_arsenal_reawakened:armory",
+  "icon": "blood_arsenal_reawakened:sanguine_scythe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(c)Sanguine Scythe$() is the tool of a harvester. It treats the battlefield like a field of wheat, reaping the life force of all who stand before it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Every soul claimed by this blade feeds the wielder. Upon killing a creature, you $(2)instantly recover$() a portion of your own $(4)Health (LP)$(), allowing you to fight indefinitely."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "With a $(6)Sneak-Right-Click$(), the scythe unleashes a $(4)Blood Vortex$(). This swirling storm of gore pulls in nearby enemies and shreds them to pieces, turning the area into a crimson slaughterhouse."
+    }
+  ]
+}

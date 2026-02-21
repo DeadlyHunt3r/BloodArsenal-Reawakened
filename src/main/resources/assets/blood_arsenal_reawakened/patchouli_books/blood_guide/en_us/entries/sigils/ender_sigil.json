@@ -1,0 +1,19 @@
+{
+  "name": "Ender Sigil",
+  "category": "blood_arsenal_reawakened:sigils",
+  "icon": "blood_arsenal_reawakened:ender_sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(5)Ender Sigil$() is a master key to the void. It allows the wielder to manipulate the very space between atoms, granting two distinct abilities of the End."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "First, by $(6)Right-Clicking$() into the distance, you can $(5)warp across great gaps$() instantly, mimicking the movement of an Enderman without the need for fragile pearls."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Second, by $(6)Sneak-Right-Clicking$(), you can reach through a rift in reality to access your $(d)Ender Chest$() from anywhere in the world. Your treasury is now always within reach."
+    }
+  ]
+}

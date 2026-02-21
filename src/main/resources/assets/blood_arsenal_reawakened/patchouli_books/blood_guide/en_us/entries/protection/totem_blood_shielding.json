@@ -1,0 +1,19 @@
+{
+  "name": "Totem of Blood Shielding",
+  "category": "blood_arsenal_reawakened:protection",
+  "icon": "blood_arsenal_reawakened:totem_of_blood_shielding",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(4)Totem of Blood Shielding$() is a loyal guardian. Unlike traditional totems, it does not need to be held in your hand to function."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "As long as it remains in your $(n)inventory$(), it will sacrifice itself to save you from certain death. However, once triggered, it becomes $(8)depleted$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A depleted totem can be $(c)recharged$() at a Blood Altar. By bathing it in fresh essence, you can restore its protective power and prepare it for the next fatal strike."
+    }
+  ]
+}

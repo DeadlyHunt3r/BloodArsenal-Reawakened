@@ -1,0 +1,19 @@
+{
+  "name": "Bloodlust Sigil",
+  "category": "blood_arsenal_reawakened:sigils",
+  "icon": "blood_arsenal_reawakened:bloodlust_sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(4)Bloodlust Sigil$() offers a desperate, violent pact. It grants the wielder $(n)monstrous strength$(), allowing you to crush enemies with ease."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "However, the human vessel was not meant to contain such raw, surging power. Every time you channel this $(4)primal rage$(), the force is so great that your own body begins to $(l)shatter$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Using this sigil will $(c)inflict damage$() upon you as the price for your newfound lethality. It is a race to see who falls first: your enemy, or $(4)you$()."
+    }
+  ]
+}

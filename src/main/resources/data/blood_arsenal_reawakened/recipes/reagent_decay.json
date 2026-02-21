@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:array",
+  "addedinput": {
+    "item": "bloodmagic:reagentbinding"
+  },
+  "baseinput": {
+    "item": "minecraft:wither_skeleton_skull"
+  },
+  "output": {
+    "item": "blood_arsenal_reawakened:reagent_decay"
+  },
+  "texture": "bloodmagic:textures/models/alchemyarrays/wiparray.png"
+}

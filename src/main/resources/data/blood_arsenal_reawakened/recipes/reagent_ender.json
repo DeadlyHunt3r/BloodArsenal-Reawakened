@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:array",
+  "addedinput": {
+    "item": "bloodmagic:reagentbinding"
+  },
+  "baseinput": {
+    "item": "minecraft:ender_pearl"
+  },
+  "output": {
+    "item": "blood_arsenal_reawakened:reagent_ender"
+  },
+  "texture": "bloodmagic:textures/models/alchemyarrays/wiparray.png"
+}

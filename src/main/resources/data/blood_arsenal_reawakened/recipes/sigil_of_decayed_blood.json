@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:array",
+  "addedinput": {
+    "item": "bloodmagic:reinforcedslate"
+  },
+  "baseinput": {
+    "item": "blood_arsenal_reawakened:reagent_decay"
+  },
+  "output": {
+    "item": "blood_arsenal_reawakened:sigil_of_decayed_blood"
+  },
+  "texture": "bloodmagic:textures/models/alchemyarrays/wiparray.png"
+}

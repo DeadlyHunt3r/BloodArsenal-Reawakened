@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:array",
+  "addedinput": {
+    "item": "bloodmagic:reinforcedslate"
+  },
+  "baseinput": {
+    "item": "minecraft:clock"
+  },
+  "output": {
+    "item": "blood_arsenal_reawakened:sigil_of_the_bloodmoon"
+  },
+  "texture": "bloodmagic:textures/models/alchemyarrays/wiparray.png"
+}

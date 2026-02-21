@@ -1,0 +1,20 @@
+{
+  "name": "Sigil of Bloodlust",
+  "category": "bloodarsenalreawakened:sigils",
+  "icon": "bloodarsenalreawakened:blood_lust_sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(blood)Sigil of Bloodlust$() is a double-edged sword. While active, it grants the user $(v)Vampiric Hunger$().$(br2)Every strike against a living being will heal you for 20% of the damage dealt."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "However, the sigil's hunger is never truly satisfied. It will slowly drain your own $(blood)Life Force$() while active. Ensure you are always in combat, or the sigil will claim your life instead."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodarsenalreawakened:blood_lust_sigil_recipe",
+      "text": "Crafting the sigil requires a sacrifice of pure obsidian and a soul-bound gem."
+    }
+  ]
+}

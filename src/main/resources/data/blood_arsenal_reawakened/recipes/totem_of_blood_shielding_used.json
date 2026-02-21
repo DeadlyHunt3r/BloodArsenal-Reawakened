@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "altarSyphon": 150000,
+  "consumptionRate": 40,
+  "drainRate": 100,
+  "input": {
+    "item": "blood_arsenal_reawakened:used_totem_of_blood_shielding"
+  },
+  "output": {
+    "item": "blood_arsenal_reawakened:totem_of_blood_shielding"
+  },
+  "upgradeLevel": 4
+}

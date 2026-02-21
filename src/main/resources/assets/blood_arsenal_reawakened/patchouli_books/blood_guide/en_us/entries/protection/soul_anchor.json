@@ -1,0 +1,19 @@
+{
+  "name": "Soul Anchor",
+  "category": "blood_arsenal_reawakened:protection",
+  "icon": "blood_arsenal_reawakened:soul_anchor",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(5)Soul Anchor$() is a permanent tether to the mortal realm. Once placed in the world, your soul is $(n)locked$() to its location."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "As long as the anchor stands, you are $(6)immortal$(). Should your body perish, the anchor will instantly pull your essence back to its position, effectively $(5)respawning$() you on the spot."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "But beware: the bond is $(4)painfully deep$(). If the anchor itself is attacked, you will feel $(n)Phantom Pains$()—suffering damage as if your own flesh were being struck. Protect your anchor as you would your own heart."
+    }
+  ]
+}

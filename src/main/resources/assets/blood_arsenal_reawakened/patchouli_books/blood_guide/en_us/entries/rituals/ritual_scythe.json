@@ -1,0 +1,15 @@
+{
+  "name": "The Scythe's Reaping",
+  "category": "blood_arsenal_reawakened:rituals",
+  "icon": "blood_arsenal_reawakened:sanguine_scythe",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The harvester's tool is born from decay. Throw these items together on the $(n)ground$():$(br2)* $(5)Soul Anchor$()$(br)* $(7)Sentient Scythe$()$(br)* $(8)Essence of Decay$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The anchor will bind the decay to the blade, transforming the components into the $(c)Sanguine Scythe$()."
+    }
+  ]
+}

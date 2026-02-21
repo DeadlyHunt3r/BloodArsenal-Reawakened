@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "altarSyphon": 200000,
+  "consumptionRate": 40,
+  "drainRate": 100,
+  "input": {
+    "item": "blood_arsenal_reawakened:heart_of_ascension"
+  },
+  "output": {
+    "item": "blood_arsenal_reawakened:soul_anchor"
+  },
+  "upgradeLevel": 4
+}

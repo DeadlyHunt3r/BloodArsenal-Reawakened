@@ -1,0 +1,19 @@
+{
+  "name": "Sigil of Decayed Blood",
+  "category": "blood_arsenal_reawakened:sigils",
+  "icon": "blood_arsenal_reawakened:sigil_of_decayed_blood",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(4)Sigil of Decayed Blood$() binds your soul to a specific point in existence. It remembers the scent of your essence, no matter how far you wander."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "By $(6)Sneak-Right-Clicking$(), you can anchor your current position within the sigil. The blood within the plate will begin to decay, forever marking that spot as your $(n)sanctuary$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A simple $(6)Right-Click$() thereafter will tear through the fabric of reality, pulling you back to your mark $(l)instantly$()—even from across different dimensions. Distance is now $(4)irrelevant$()."
+    }
+  ]
+}

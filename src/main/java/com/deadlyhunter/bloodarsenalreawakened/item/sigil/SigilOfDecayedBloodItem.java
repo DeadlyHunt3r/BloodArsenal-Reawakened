@@ -27,8 +27,8 @@ public class SigilOfDecayedBloodItem extends SigilBaseItem.InstantUse {
     private static final String TAG_YAW   = "TargetYaw";
     private static final String TAG_PITCH = "TargetPitch";
 
-    private static final int LP_COST_SAVE = 500;
-    private static final int LP_COST_TELEPORT = 1000;
+    private static final int LP_COST_SAVE = 5000;
+    private static final int LP_COST_TELEPORT = 5000;
     
     private static final int COOLDOWN_TP = 20; 
     private static final double OFFSET_CENTER = 0.5d;

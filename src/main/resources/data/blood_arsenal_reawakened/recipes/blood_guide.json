@@ -1,0 +1,14 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "minecraft:book"
+  },
+  "output": {
+    "item": "patchouli:guide_book",
+    "nbt": "{'patchouli:book': 'blood_arsenal_reawakened:blood_guide'}"
+  },
+  "altarTier": 1,
+  "lpRequested": 1000,
+  "consumptionRate": 5,
+  "drainRate": 1
+}

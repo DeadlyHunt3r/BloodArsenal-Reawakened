@@ -1,0 +1,15 @@
+{
+  "name": "Dragon Claw",
+  "category": "blood_arsenal_reawakened:mob_drops",
+  "icon": "blood_arsenal_reawakened:dragon_claw",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(6)Dragon Claw$() is a guaranteed trophy for any master of the skies. It is $(n)always$() dropped by the $(5)Ender Dragon$() upon its defeat."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "This razor-sharp relic is essential for crafting the basic tools of the Arsenal. If you seek to progress, you must first conquer the $(d)End$()."
+    }
+  ]
+}

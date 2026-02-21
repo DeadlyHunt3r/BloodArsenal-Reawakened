@@ -30,7 +30,7 @@ public class DivinitySigilItem extends SigilBaseItem.Toggleable {
         if (!level.isClientSide) {
             SoulNetwork network = NetworkHelper.getSoulNetwork(player);
             if (!SigilBaseItem.Toggleable.isActive(stack) && network.getCurrentEssence() < 400) {
-                player.displayClientMessage(Component.literal("Not enough LP to activate Divinity!")
+                player.displayClientMessage(Component.literal("Insufficient LP!")
                         .withStyle(ChatFormatting.RED), true);
                 return InteractionResultHolder.fail(stack);
             }

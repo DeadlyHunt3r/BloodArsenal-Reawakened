@@ -1,0 +1,15 @@
+{
+  "name": "Bleeding Dragon",
+  "category": "blood_arsenal_reawakened:mob_drops",
+  "icon": "blood_arsenal_reawakened:bleeding_dragon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Rare and elusive, the $(4)Bleeding Dragon$() (the Bleeding Eye) is not found in every beast. Only $(n)select Dragons$() carry this cursed organ."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It is a $(c)rare drop$() from the Ender Dragon. You may have to face the beast multiple times before it yields this potent catalyst for your $(b)Celestial Ascension$()."
+    }
+  ]
+}

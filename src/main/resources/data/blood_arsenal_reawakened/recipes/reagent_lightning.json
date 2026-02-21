@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:array",
+  "addedinput": {
+    "item": "bloodmagic:reagentbinding"
+  },
+  "baseinput": {
+    "item": "minecraft:lightning_rod"
+  },
+  "output": {
+    "item": "blood_arsenal_reawakened:reagent_lightning"
+  },
+  "texture": "bloodmagic:textures/models/alchemyarrays/wiparray.png"
+}

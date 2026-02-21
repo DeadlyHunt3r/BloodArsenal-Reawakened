@@ -1,0 +1,19 @@
+{
+  "name": "Blood Bound Executioner",
+  "category": "blood_arsenal_reawakened:armory",
+  "icon": "blood_arsenal_reawakened:blood_bound_executioner",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(4)Blood Bound Executioner$() is the ultimate judge. It does not just wound; it ends lives with surgical precision."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The blade possesses a $(n)Execution Aura$(): any foe weakened to $(c)20% Health$() or less will be $(4)instantly executed$() in a single strike. No armor can prevent this final judgment."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "By $(6)Sneak-Right-Clicking$(), the wielder can manifest their own blood into a $(c)Blood Spear$(), a devastating projectile that pierces through enemies from a distance."
+    }
+  ]
+}

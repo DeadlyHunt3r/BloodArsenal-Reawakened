@@ -1,0 +1,19 @@
+{
+  "name": "Lightning Sigil",
+  "category": "blood_arsenal_reawakened:sigils",
+  "icon": "blood_arsenal_reawakened:lightning_sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(e)Lightning Sigil$() acts as a conductor for the primal fury of the skies. It allows the wielder to command the $(b)storm's wrath$() at a mere whim."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "By channeling your essence through the plate, you can $(6)summon bolts of pure lightning$() to strike down your foes. No armor can protect them from the searing heat of a celestial strike."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The heavens will roar and the earth will tremble as you $(n)smite$() those who dare to stand in your path. With this sigil, you are the $(e)storm$()."
+    }
+  ]
+}

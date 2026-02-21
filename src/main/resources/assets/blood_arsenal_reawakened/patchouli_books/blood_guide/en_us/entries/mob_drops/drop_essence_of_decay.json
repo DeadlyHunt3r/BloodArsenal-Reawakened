@@ -1,0 +1,15 @@
+{
+  "name": "Essence of Decay",
+  "category": "blood_arsenal_reawakened:mob_drops",
+  "icon": "blood_arsenal_reawakened:essence_of_decay",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(8)Essence of Decay$() is the concentrated entropy of the undead. It can only be recovered from the remains of a $(n)Wither$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Be warned: $(4)not every Wither$() carries this essence. It is a rare find, manifesting only when the Wither's soul is particularly corrupted. You will need this to craft the $(8)Sigil of Decayed Blood$()."
+    }
+  ]
+}

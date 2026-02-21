@@ -1,0 +1,19 @@
+{
+  "name": "Sigil of the Bloodmoon",
+  "category": "blood_arsenal_reawakened:sigils",
+  "icon": "blood_arsenal_reawakened:sigil_of_the_bloodmoon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(c)Sigil of the Bloodmoon$() grants the wielder dominion over the celestial cycle. The rising sun and the silver moon are no longer inevitable, but $(n)choices$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "By activating the sigil, you can $(6)force the passage of time$(). If the light of day is too bright, you can summon the $(4)shades of night$() instantly. If the darkness becomes too dangerous, you can command the sun to rise."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "With a single $(6)Right-Click$(), you manipulate the rotation of the world itself. You are the conductor of the $(c)eternal dance$() between light and shadow."
+    }
+  ]
+}

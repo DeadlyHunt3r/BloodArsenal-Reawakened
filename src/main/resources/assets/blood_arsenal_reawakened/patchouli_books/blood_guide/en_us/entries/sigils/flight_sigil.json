@@ -1,0 +1,19 @@
+{
+  "name": "Flight Sigil",
+  "category": "blood_arsenal_reawakened:sigils",
+  "icon": "blood_arsenal_reawakened:flight_sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(b)Flight Sigil$() grants the wielder the forbidden ability to tread upon the very air itself. Gravity is no longer a law, but a $(o)suggestion$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "While held, you gain the power of $(6)Celestial Flight$(). Like a god looking down upon the world, you can soar, hover, and drift through the skies exactly as you would in $(n)Creative Spirit$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "No wings, no rockets—just the sheer force of your $(4)ascended will$() pushing you through the clouds. The world is your playground, and the horizon is your only limit."
+    }
+  ]
+}

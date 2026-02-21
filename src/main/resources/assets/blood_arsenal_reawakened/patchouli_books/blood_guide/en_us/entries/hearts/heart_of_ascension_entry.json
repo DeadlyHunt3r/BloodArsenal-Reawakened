@@ -1,0 +1,15 @@
+{
+  "name": "Heart of Ascension",
+  "category": "blood_arsenal_reawakened:hearts",
+  "icon": "blood_arsenal_reawakened:heart_of_ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(b)Heart of Ascension$() is the pinnacle of your sanguine journey. Infused with the power of lightning, it pushes your body to divine limits."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Eating $(6)10 of these celestial hearts$() will grant you the final $(4)10 health increments$(). A true master of the Blood Arsenal can reach a total of $(n)30 additional hearts$() by mastering all three types."
+    }
+  ]
+}

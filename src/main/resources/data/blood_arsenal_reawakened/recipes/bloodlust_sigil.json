@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:array",
+  "addedinput": {
+    "item": "bloodmagic:reinforcedslate"
+  },
+  "baseinput": {
+    "item": "blood_arsenal_reawakened:reagent_bloodlust"
+  },
+  "output": {
+    "item": "blood_arsenal_reawakened:bloodlust_sigil"
+  },
+  "texture": "bloodmagic:textures/models/alchemyarrays/wiparray.png"
+}

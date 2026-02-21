@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:array",
+  "addedinput": {
+    "item": "bloodmagic:reagentbinding"
+  },
+  "baseinput": {
+    "item": "minecraft:sculk_sensor"
+  },
+  "output": {
+    "item": "blood_arsenal_reawakened:reagent_bloodlust"
+  },
+  "texture": "bloodmagic:textures/models/alchemyarrays/wiparray.png"
+}

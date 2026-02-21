@@ -37,7 +37,8 @@ public class ModCreativeTabs {
 						output.accept(ModItems.ESSENCE_OF_DECAY.get());
 						output.accept(ModItems.SIGIL_OF_THE_BLOODMOON.get());
 						output.accept(ModItems.BLOOD_BOUND_EXECUTIONER.get());
-						output.accept(ModItems.GUIDE_BOOK.get());
+						output.accept(ModItems.SOUL_ANCHOR.get());
+						output.accept(ModItems.SANGUINE_SCYTHE.get());
 						
 						output.accept(ModItems.REAGENT_FLIGHT.get());
                         output.accept(ModItems.REAGENT_ENDER.get());

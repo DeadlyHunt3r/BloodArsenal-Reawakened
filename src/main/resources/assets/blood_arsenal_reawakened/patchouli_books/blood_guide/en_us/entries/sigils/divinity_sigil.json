@@ -1,0 +1,19 @@
+{
+  "name": "Divinity Sigil",
+  "category": "blood_arsenal_reawakened:sigils",
+  "icon": "blood_arsenal_reawakened:divinity_sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "To hold the $(6)Divinity Sigil$() is to transcend the fragile boundary of mortality. You are no longer a mere traveler; you are an $(n)eternal force$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "While this sigil is active, the cold touch of $(4)Death$() cannot reach you. Damage becomes a forgotten concept as your essence is locked in a state of $(6)absolute immortality$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Bound by divine blood, you shall walk through fire, void, and blade $(n)unscathed$(). You have become the master of your own destiny."
+    }
+  ]
+}

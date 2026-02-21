@@ -16,7 +16,8 @@ import com.deadlyhunter.bloodarsenalreawakened.item.sigil.SigilOfTheBloodMoonIte
 import com.deadlyhunter.bloodarsenalreawakened.item.sigil.BloodLustSigilItem;
 import com.deadlyhunter.bloodarsenalreawakened.item.TotemOfBloodShieldingItem;
 import com.deadlyhunter.bloodarsenalreawakened.item.UsedTotemOfBloodShieldingItem;
-import com.deadlyhunter.bloodarsenalreawakened.item.BloodGuideItem;
+import com.deadlyhunter.bloodarsenalreawakened.item.SanguineScytheItem;
+import com.deadlyhunter.bloodarsenalreawakened.item.SoulAnchorItem;
 import com.deadlyhunter.bloodarsenalreawakened.item.heart.HeartItem;
 import com.deadlyhunter.bloodarsenalreawakened.gear.BloodArmorItems;
 import com.deadlyhunter.bloodarsenalreawakened.gear.ModArmorMaterials;
@@ -55,7 +56,7 @@ public class ModItems {
 	
 	public static final RegistryObject<Item> REAGENT_DECAY = REGISTER.register("reagent_decay", () -> new TooltipItem(new Item.Properties(), "reagent_decay"));
 	
-	public static final RegistryObject<Item> GUIDE_BOOK = REGISTER.register("guide_book",  () -> new BloodGuideItem(new Item.Properties().stacksTo(1)));
+	public static final RegistryObject<Item> SOUL_ANCHOR = REGISTER.register("soul_anchor", () -> new SoulAnchorItem(new Item.Properties().stacksTo(1).rarity(Rarity.EPIC)));
 	
 	
 	
@@ -98,6 +99,8 @@ public class ModItems {
 	// Waffen
 	
 	public static final RegistryObject<Item> BLOOD_BOUND_EXECUTIONER = REGISTER.register("blood_bound_executioner",  () -> new BloodBoundExecutionerItem(Tiers.NETHERITE, 7, -2.4F, new Item.Properties().fireResistant().stacksTo(1).rarity(Rarity.EPIC)));
+	
+	public static final RegistryObject<Item> SANGUINE_SCYTHE = REGISTER.register("sanguine_scythe", () -> new SanguineScytheItem(Tiers.DIAMOND, 6, -2.4f,  new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).fireResistant()));
 	
 	
 	

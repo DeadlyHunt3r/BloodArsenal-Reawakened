@@ -65,5 +65,10 @@
   "item.blood_arsenal_reawakened.blood_bound_executioner": "Blood-Bound Executioner",
   "tooltip.bloodarsenalreawakened.blood_bound_executioner.desc": "§oA blade forged in ritual. Executes the weak to feed your soul network. Shift-Right Click to hurl a spear of blood.",
   
-  "item.blood_arsenal_reawakened.guide_book": "Blood Arsenal Guide"
+  "item.blood_arsenal_reawakened.sanguine_scythe": "Sanguine Scythe",
+  "tooltip.blood_arsenal_reawakened.sanguine_scythe.title": "A Blade Forged in Sacrifice",
+  "tooltip.blood_arsenal_reawakened.sanguine_scythe.desc": "Harvests the souls of the fallen. Shift + Right Click for Blood Vortex.",
+  
+  "item.blood_arsenal_reawakened.guide_book": "Blood Arsenal Guide",
+  "item.blood_arsenal_reawakened.soul_anchor": "Soul Anchor"
 }

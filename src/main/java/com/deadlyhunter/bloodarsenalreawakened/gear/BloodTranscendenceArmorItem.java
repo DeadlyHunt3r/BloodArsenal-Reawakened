@@ -6,6 +6,7 @@ import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ItemStack;
@@ -16,6 +17,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
+import java.util.function.Consumer;
 
 public class BloodTranscendenceArmorItem extends ArmorItem {
 
@@ -23,6 +25,15 @@ public class BloodTranscendenceArmorItem extends ArmorItem {
         super(mat, type, props);
     }
 
+    @Override
+    public boolean isDamageable(ItemStack stack) {
+        return false;
+    }
+
+    @Override
+    public <T extends LivingEntity> int damageItem(ItemStack stack, int amount, T entity, Consumer<T> onBroken) {
+        return 0;
+    }
 
     @Override
     public int getMaxDamage(ItemStack stack) {
@@ -39,7 +50,6 @@ public class BloodTranscendenceArmorItem extends ArmorItem {
         return true;
     }
 
-
     @OnlyIn(Dist.CLIENT)
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> tooltip, TooltipFlag flag) {
@@ -52,8 +62,8 @@ public class BloodTranscendenceArmorItem extends ArmorItem {
         tooltip.add(Component.literal("Set: Blood Transcendence ")
                 .withStyle(ChatFormatting.DARK_RED)
                 .append(Component.literal("(" + count + "/4)").withStyle(ChatFormatting.GRAY)));
-        tooltip.add(Component.translatable(
-                "tooltip.bloodarsenalreawakened." + BARMain.MOD_ID + ".armor_hint")
+        
+        tooltip.add(Component.translatable("tooltip." + BARMain.MOD_ID + ".armor_hint")
                 .withStyle(ChatFormatting.DARK_GRAY, ChatFormatting.ITALIC));
     }
 

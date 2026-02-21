@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:array",
+  "addedinput": {
+    "item": "bloodmagic:reagentbinding"
+  },
+  "baseinput": {
+    "item": "minecraft:feather"
+  },
+  "output": {
+    "item": "blood_arsenal_reawakened:reagent_flight"
+  },
+  "texture": "bloodmagic:textures/models/alchemyarrays/wiparray.png"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Sanguine Heart",
+  "category": "blood_arsenal_reawakened:hearts",
+  "icon": "blood_arsenal_reawakened:sanguine_heart",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Forged from the sacrifice of living creatures, the $(c)Sanguine Heart$() carries a more potent vitality than its crimson counterpart."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Just like the Crimson Heart, you can feast upon $(6)10 Sanguine Hearts$() to further expand your vitality. Each consumption adds $(4)one heart$() to your maximum health, stacking with other heart types."
+    }
+  ]
+}

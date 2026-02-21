@@ -1,0 +1,19 @@
+{
+  "name": "Forging the Hearts",
+  "category": "blood_arsenal_reawakened:rituals",
+  "icon": "blood_arsenal_reawakened:heart_of_ascension",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "To increase your vitality, you must perform specific rites with rare catalysts:$(br2)$(l)Crimson Heart:$(br)Hold a $(6)Nether Star$() and $(6)Sneak-Right-Click$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Sanguine Heart:$(br)Wield a $(6)Dragon Claw$() and $(6)Sneak-Right-Click$() on a peaceful animal. The creature's life force will crystallize into a heart."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Heart of Ascension:$(br)This requires the power of the storm. $(6)Sneak-Right-Click$() with a $(4)Bleeding Dragon's Eye$() specifically while $(b)Thunder$() rages in the skies."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "altarSyphon": 200000,
+  "consumptionRate": 40,
+  "drainRate": 100,
+  "input": {
+    "item": "minecraft:totem_of_undying"
+  },
+  "output": {
+    "item": "blood_arsenal_reawakened:totem_of_blood_shielding"
+  },
+  "upgradeLevel": 4
+}
